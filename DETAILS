@@ -1,0 +1,49 @@
+This project demonstrates advanced SQL querying on a custom University database built in MySQL Workbench.
+The database contains 15 related tables such as Students, Courses, Departments, Enrollments, Exams, HostelAllotment, LibraryBooks, BookIssues, Payments, Attendance, and more.
+Primary- and foreign-key relationships connect these tables, enabling realistic scenarios like student admissions, course registrations, hostel assignments, and library usage.
+
+What the Project Covers
+
+Data Creation
+
+Designed and populated a University schema with 15+ tables.
+
+Established primary keys, foreign keys, and appropriate data types to maintain data integrity.
+
+Query Set
+The lab required exploring different SQL operations to answer practical questions.
+Highlights include:
+
+Joins
+
+INNER JOIN – e.g., listing students with their enrolled courses and marks.
+
+LEFT JOIN – e.g., displaying all students along with any payments (including those with no payments).
+
+RIGHT JOIN – e.g., listing all hostel rooms even when no student is assigned.
+
+FULL OUTER JOIN – simulated using UNION of left and right joins to show all books and all students, even when there is no borrowing record.
+
+Subqueries
+
+Found students in specific departments using nested queries.
+
+Compared individual averages against program averages.
+
+Aggregate Functions
+
+Used SUM, AVG, COUNT, MAX, and MIN for analytics such as total students per department, highest marks, and total fees.
+
+Ordering and Filtering
+
+Implemented ORDER BY, GROUP BY, and conditional filtering with WHERE, HAVING, and string/date functions.
+
+Sample Achievements
+
+Top-N analysis (e.g., top 3 students in Database Management Systems by marks).
+
+Attendance and fee-status reports using combined joins and subqueries.
+
+Classification of students based on course load (Full/Medium/Light/Not Enrolled).
+
+Reports that merge multiple functional areas (library, hostel, courses) in one query.
